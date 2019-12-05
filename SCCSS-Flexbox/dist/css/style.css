@@ -8,26 +8,26 @@ html {
 
 body {
   background-color: cyan;
-  color: red;
+  color: black;
   font-size: 200%;
 }
 
 .flex-parent {
-  height: 100vh;
-  background-color: gray;
+  height: 500vh;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .flex-child {
-  height: 20vh;
-  background-color: #9e9e9e;
+  height: 50vh;
+  background-color: lightpink;
   margin: 10px;
-  width: 33.3%;
+  width: 99%;
 }
 /*# sourceMappingURL=style.css.map */
