@@ -12,7 +12,7 @@ body{
 }
 
 .flex-parent{
-  height: 500vh;
+  height: 300vh;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -23,4 +23,34 @@ body{
   background-color: lightpink;
   margin: 10px;
   width: 99%;
+  flex-direction: row;
+}
+
+#block1{
+  height: 100vh;
+  background-color: #558B2F;
+  color: white;
+}
+
+img{
+  display: flex; 
+  align-content: right;
+}
+
+#block2{
+  height: 35vh;
+  background-color: #212121;
+  color: white;
+}
+
+#block3{
+  height: 30vh;
+}
+
+#block4{
+  background-color: #4FC3F7;
+}
+
+#block5{
+  background-color: #FFFF8D;
 }
