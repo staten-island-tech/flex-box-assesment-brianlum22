@@ -6,6 +6,12 @@ html {
           box-sizing: border-box;
 }
 
+header {
+  font-family: 'Bangers', cursive;
+  font-size: 10vh;
+  text-align: center;
+}
+
 body {
   background-color: cyan;
   color: black;
@@ -22,6 +28,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .flex-child {
@@ -33,6 +42,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #block1 {
@@ -45,8 +57,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-line-pack: right;
-      align-content: right;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border-radius: 8px;
 }
 
 #block2 {
