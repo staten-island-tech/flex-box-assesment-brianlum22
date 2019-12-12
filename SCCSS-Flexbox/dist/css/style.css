@@ -27,7 +27,7 @@ body {
 }
 
 .flex-parent {
-  height: 60vh;
+  height: 100vh;
   background-color: #D500F9;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,6 +62,46 @@ body {
 }
 
 #block2 {
+  background-color: #212121;
+  color: white;
+}
+
+.flex-parent2 {
+  height: 60vh;
+  background-color: #D500F9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-child2 {
+  height: 80vh;
+  background-color: lightpink;
+  margin: 20px;
+  width: 99%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#block4 {
+  background-color: #558B2F;
+  color: white;
+}
+
+#block5 {
   background-color: #212121;
   color: white;
 }
