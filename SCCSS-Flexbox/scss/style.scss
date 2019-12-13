@@ -1,8 +1,16 @@
+@import "_variables.scss";
+
 html{
   margin: 0;
   padding: 0;
   font-size: 100%;
   box-sizing: border-box;
+}
+
+body{
+  background-color: color(primary-color);
+  color: black;
+  font-size: 200%;
 }
 
 header{
@@ -19,14 +27,8 @@ img{
   height: auto;
 }
 
-body{
-  background-color: #E1BEE7;
-  color: black;
-  font-size: 200%;
-}
-
 .flex-parent{
-  height: 100vh;
+  height: 80vh;
   background-color: #D500F9;
   display: flex;
   flex-direction: row;
@@ -41,16 +43,7 @@ body{
   width: 99%;
   flex-direction: row;
   align-items: center;
-}
 
-#block1{
-  background-color: #558B2F;
-  color: white;
-}
-
-#block2{
-  background-color: #212121;
-  color: white;
 }
 
 .flex-parent2{
@@ -62,22 +55,13 @@ body{
   align-items: center;
 }
 
-
 .flex-child2{
-  height: 80vh;
+  height: 40vh;
   background-color: lightpink;
   margin: 20px;
   width: 99%;
   flex-direction: row;
   align-items: center;
+  font-size: 60%;
 }
 
-#block4{
-  background-color: #558B2F;
-  color: white;
-}
-
-#block5{
-  background-color: #212121;
-  color: white;
-}

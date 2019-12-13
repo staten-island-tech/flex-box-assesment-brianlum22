@@ -6,6 +6,11 @@ html {
           box-sizing: border-box;
 }
 
+body {
+  color: black;
+  font-size: 200%;
+}
+
 header {
   font-family: 'Bangers', cursive;
   font-size: 10vh;
@@ -20,14 +25,8 @@ img {
   height: auto;
 }
 
-body {
-  background-color: #E1BEE7;
-  color: black;
-  font-size: 200%;
-}
-
 .flex-parent {
-  height: 100vh;
+  height: 80vh;
   background-color: #D500F9;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -56,16 +55,6 @@ body {
           align-items: center;
 }
 
-#block1 {
-  background-color: #558B2F;
-  color: white;
-}
-
-#block2 {
-  background-color: #212121;
-  color: white;
-}
-
 .flex-parent2 {
   height: 60vh;
   background-color: #D500F9;
@@ -83,7 +72,7 @@ body {
 }
 
 .flex-child2 {
-  height: 80vh;
+  height: 40vh;
   background-color: lightpink;
   margin: 20px;
   width: 99%;
@@ -94,15 +83,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-#block4 {
-  background-color: #558B2F;
-  color: white;
-}
-
-#block5 {
-  background-color: #212121;
-  color: white;
+  font-size: 60%;
 }
 /*# sourceMappingURL=style.css.map */
